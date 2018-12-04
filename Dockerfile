@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
 
-RUN apk add --no-cache curl tar procps sshpass openssh-client rsync bash git openssh sudo
+RUN apk add --no-cache curl tar procps sshpass openssh-client rsync bash git openssh sudo curl
 
 ARG MAVEN_VERSION=3.6.0
 ARG USER_HOME_DIR="/root"
